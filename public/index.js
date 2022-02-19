@@ -93,7 +93,7 @@ class Timer {
   }
 }
 
-fetch('/.netlify/functions/notion_timer/notion_timer').then(response => response.json()).then(data=> {
+fetch('/.netlify/functions/notion_timer').then(response => response.json()).then(data=> {
   data.map(item => {
     new Timer(item.seconds, item.id, item.h, item.s, item.l);
   });

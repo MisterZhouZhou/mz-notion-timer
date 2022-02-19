@@ -1,0 +1,9 @@
+{
+  "name": "notion_timer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^0.4.13"
+  }
+}
