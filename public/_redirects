@@ -1,0 +1,2 @@
+/api/timer /.netlify/functions/notion_timer/notion_timer.js 200
+/api/test /.netlify/functions/test/index.js 200
